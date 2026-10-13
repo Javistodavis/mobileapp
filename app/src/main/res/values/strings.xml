@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">PIANAR_EVENT_DRIVEN_ACTIVITY</string>
+    <string name="login_text">login</string>
+    <string name="username_text">Username</string>
+    <string name="password_text">password</string>
+    <string name="login_button">login</string>
+    <string name="signup_button">Create Account</string>
+    <string name="cancel_button" tools:ignore="ButtonCase">cancel</string>
+    <string name="signup_text">Create Account</string>
+    <string name="confirm_email_text">confirm email</string>
+    <string name="email_text">email</string>
+    <string name="confirm_password_text">confirm password</string>
+    <string name="auth_title">Authentication</string>
+    <string name="auth_your_code">Your verification code is:</string>
+    <string name="auth_expires_in">Code expires in %1$ds</string>
+    <string name="auth_expired">Code expired. Tap Resend Code.</string>
+    <string name="auth_hint">Enter the 6-digit code</string>
+    <string name="auth_verify">Verify</string>
+    <string name="auth_resend">Resend Code</string>
+    <string name="auth_resend_in">Resend Code (%1$ds)</string>
+    <string name="auth_enter_six">Please enter the 6-digit code</string>
+    <string name="auth_wrong">Wrong authentication code. Please try again.</string>
+    <string name="auth_code_expired_msg">This code has expired. Please resend a new code.</string>
+    <string name="auth_success">Authentication successful!</string>
+</resources>
