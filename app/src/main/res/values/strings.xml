@@ -19,7 +19,7 @@
     <string name="auth_resend">Resend Code</string>
     <string name="auth_resend_in">Resend Code (%1$ds)</string>
     <string name="auth_enter_six">Please enter the 6-digit code</string>
-    <string name="auth_wrong">Wrong authentication code. Please try again.</string>
+    <string name="auth_wrong">Invalid code</string>
     <string name="auth_code_expired_msg">This code has expired. Please resend a new code.</string>
-    <string name="auth_success">Authentication successful!</string>
+    <string name="auth_success">Valid code</string>
 </resources>

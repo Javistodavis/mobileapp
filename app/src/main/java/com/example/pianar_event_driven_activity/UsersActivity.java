@@ -24,10 +24,19 @@ public class UsersActivity extends AppCompatActivity {
 
         tvLocal = findViewById(R.id.tvLocalUsers);
         tvCloud = findViewById(R.id.tvCloudUsers);
+        Button btnBackDashboard = findViewById(R.id.btnBackDashboard);
         Button btnLogout = findViewById(R.id.btnLogout);
 
         showLocalUsers();
         loadCloudUsers();
+
+        // Back to Dashboard
+        btnBackDashboard.setOnClickListener(v -> {
+            Intent intent = new Intent(UsersActivity.this, DashboardActivity.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+            startActivity(intent);
+            finish();
+        });
 
         // Back to a fresh login page
         btnLogout.setOnClickListener(v -> {

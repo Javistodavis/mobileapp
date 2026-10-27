@@ -37,7 +37,11 @@ public class AuthenticationActivity extends AppCompatActivity {
 
     // After success: open the "All Registered Users" screen
     private final Runnable goToUsers = () -> {
-        startActivity(new Intent(AuthenticationActivity.this, UsersActivity.class));
+        Intent intent = new Intent(AuthenticationActivity.this, DashboardActivity.class);
+        intent.putExtra("firstName", getIntent().getStringExtra("firstName"));
+        intent.putExtra("lastName", getIntent().getStringExtra("lastName"));
+        intent.putExtra("email", getIntent().getStringExtra("email"));
+        startActivity(intent);
         finish();
     };
 
